@@ -1,0 +1,19 @@
+.navbar { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.navbar-inner { display: flex; align-items: center; gap: 1.5rem; height: 60px; }
+.navbar-brand { font-size: 18px; font-weight: 700; color: var(--text); }
+.navbar-brand span { color: var(--primary); }
+.navbar-nav { display: flex; gap: 1.5rem; }
+.navbar-nav a { color: var(--text-muted); font-size: 14px; }
+.navbar-nav a:hover { color: var(--text); }
+.navbar-actions { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.cart-icon { position: relative; color: var(--text-muted); display: flex; }
+.cart-icon:hover { color: var(--primary); }
+.cart-badge { position: absolute; top: -6px; right: -6px; background: var(--primary); color: #fff; border-radius: 99px; font-size: 10px; font-weight: 600; min-width: 18px; height: 18px; display: flex; align-items: center; justify-content: center; padding: 0 4px; }
+.user-menu { position: relative; }
+.user-avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--primary-light); color: var(--primary); font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; cursor: pointer; border: 1px solid var(--border); }
+.user-dropdown { display: none; position: absolute; right: 0; top: calc(100% + 8px); background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-md); min-width: 180px; overflow: hidden; z-index: 200; }
+.user-menu:hover .user-dropdown { display: block; }
+.dropdown-header { padding: 10px 14px; border-bottom: 1px solid var(--border); font-weight: 500; font-size: 13px; }
+.dropdown-header span { display: block; font-size: 12px; color: var(--text-muted); font-weight: 400; }
+.user-dropdown a, .user-dropdown button { display: block; width: 100%; text-align: left; padding: 9px 14px; font-size: 13px; color: var(--text-muted); background: none; border: none; }
+.user-dropdown a:hover, .user-dropdown button:hover { background: var(--gray-50); color: var(--text); }

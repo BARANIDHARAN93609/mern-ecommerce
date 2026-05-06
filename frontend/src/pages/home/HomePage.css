@@ -1,0 +1,17 @@
+.hero { background: linear-gradient(135deg, #0C447C 0%, #185FA5 60%, #378ADD 100%); color: #fff; padding: 5rem 0; }
+.hero-inner { max-width: 560px; }
+.hero h1 { font-size: 42px; font-weight: 800; line-height: 1.2; margin-bottom: 1rem; }
+.hero p { font-size: 16px; opacity: 0.85; margin-bottom: 2rem; line-height: 1.6; }
+.hero-btns { display: flex; gap: 12px; }
+.features { padding: 3rem 0; }
+.features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+@media (max-width: 700px) { .features-grid { grid-template-columns: repeat(2, 1fr); } .hero h1 { font-size: 28px; } }
+.feature-card { padding: 1.25rem; text-align: center; }
+.feature-icon { font-size: 32px; margin-bottom: 10px; }
+.feature-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.feature-card p { font-size: 13px; color: var(--text-muted); }
+.featured-products { padding: 0 0 3rem; }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; }
+.section-header h2 { font-size: 20px; font-weight: 700; }
+.section-header a { font-size: 14px; color: var(--primary); }
+.home-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
